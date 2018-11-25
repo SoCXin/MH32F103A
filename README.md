@@ -11,7 +11,11 @@
 
 ## 组成
 
-#### [Paddle-Mobile](https://github.com/tfzoo/Paddle-Mobile) 
+#### [mali](https://github.com/merrymercy/tvm-mali.git) 
+
+Optimizing Mobile Deep Learning on ARM GPU with TVM
+
+#### [Paddle-Mobile](https://github.com/PaddlePaddle/paddle-mobile) 
 
 https://github.com/PaddlePaddle/paddle-mobile.git
 
