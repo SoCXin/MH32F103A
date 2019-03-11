@@ -1,16 +1,10 @@
-# Note: The data and scripts here are all stale. Please go to https://github.com/dmlc/tvm/wiki/Benchmark#mobile-gpu For the latest results.
+#[TVM](https://tvm.ai)
 
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-
-# Benchmarking Deep Neural Networks on ARM CPU/GPU
+## Benchmarking Deep Neural Networks on ARM CPU/GPU
 
 This repo is the supporting material for [Optimizing Mobile Deep Learning on ARM GPU with TVM](http://tvmlang.org/2018/01/16/opt-mali-gpu.html)
+
+fork from https://github.com/merrymercy/tvm-mali
 
 ## Inference Speed on ImageNet
 Tested on 
@@ -21,7 +15,6 @@ Arm Compute Library: v17.12,  MXNet: v1.0.1,  Openblas: v0.2.18
 
 ![result](results.png)
 
- 
 ## Set Test Environment
 ```
 sudo /etc/init.d/lightdm stop
