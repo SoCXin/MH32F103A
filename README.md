@@ -1,5 +1,7 @@
 ﻿# [MH32F103A](https://doc.soc.xin/MH32F103A)
 
+[![Build Status](https://github.com/SoCXin/MH32F103A/workflows/template/badge.svg)](https://github.com/SoCXin/MH32F103A/actions/workflows/template.yml)
+
 * [xinlinggo](http://www.xinlinggo.com/): [Cortex-M4](https://github.com/SoCXin/Cortex)
 * [L3R1](https://github.com/SoCXin/Level): 216 MHz , [￥4.5](https://item.taobao.com/item.htm?spm=a230r.1.14.18.4e6268cfE8qItg&id=677658615003&ns=1&abbucket=3#detail)
 

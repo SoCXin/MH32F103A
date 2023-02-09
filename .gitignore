@@ -2,7 +2,6 @@
 .vscode/
 __pycache__/
 settings
-Debug
 *.py[cod]
 *$py.class
 *__pyc*/
@@ -12,43 +11,6 @@ Debug
 ~*
 .settings
 output
-# .mxproject
-# Change*
-# CHANGE*
-*.swp
-*.lck
 *.log
-*.ewt
-*.ewd
-*.crf
-*.dep
-*.map
-*.hex
-*.bin
-*.bak
-# *.txt
-*.lst
-*.sct
-*.elf
-# *.ini
-*.uvgu*
-# .gitmodules
-# *.png
-*.rst
-.travis.yml
-tests
-# mk
-*.launch
-DebugConfig
-RTE
-*.d
-*.o
-*.axf
-*.htm
-*.lnp
-*.scvd
-*.iex
-# !sRCA.bin
-Obj
-List
-TEST/
+*.log
+OBJ/
