@@ -1,0 +1,36 @@
+name: template
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'template/**'
+      - '**.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.SOC_XIN_TOCKEN }}
+          submodules: "recursive"
+          fetch-depth: 1
+
+      - name: Install gcc
+        run: |
+          wget https://developer.arm.com/-/media/Files/downloads/gnu/12.2.rel1/binrel/arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi.tar.xz
+          sudo mkdir -p /opt/gcc-arm/
+          sudo tar xvf arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi.tar.xz -C /opt/gcc-arm/
+          cd /opt/gcc-arm/
+          sudo chown -R root:root arm-gnu-toolchain-12.2.rel1-x86_64-arm-none-eabi/
+
+      - name: Build
+        working-directory: template
+        run: make
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: template
+          path: template/Build/template.hex
