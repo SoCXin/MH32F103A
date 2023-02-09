@@ -1,0 +1,37 @@
+{
+    "type":"MCU",
+    "name":"MH32F103A",
+    "title": "xinlinggo MH32F103A MCU",
+    "description":"xinlinggo MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M4",
+        "Fmax":216,
+        "DMIPS": 160,
+        "CoreMark": 240
+    },
+    "manufacturer": {
+        "vendor":"xinlinggo",
+        "homepage":"https://www.xinlinggo.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/MH32F103A.git"
+    },
+    "version":"1.0.0",
+    "series":["MH32F103A","Air32F103"],
+    "package":["LQFP-64","LQFP-48"],
+    "peripheral": ["CAN","ADC","USART","SPI","I2C"],
+    "temp": [-40,105],
+    "volt": [2.4,3.6],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M4",
+        "xinlinggo",
+        "CAN","ADC","I2C","SPI","USART"
+    ]
+}
+
