@@ -1,13 +1,13 @@
 name: docs
 
-# on:
-#   schedule:
-#     - cron: "55 18 * * *"
-
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: "59 18 * * *"
+
+# on:
+#   push:
+#     branches:
+#       - master
 
 
 jobs:
