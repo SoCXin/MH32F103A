@@ -94,7 +94,7 @@ jobs:
         with:
           repository: ${{ env.DOCS_REPO }}
           path: ${{ env.DOCS_DIR }}
-          ref: master
+          ref: gh-pages
 
       - name: Synchronize Docs
         run: |
