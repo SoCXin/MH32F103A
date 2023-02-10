@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - 'template/**'
-      - '**.yml'
+      - 'template.yml'
 
 jobs:
   build:
