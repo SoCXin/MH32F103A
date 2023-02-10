@@ -1,15 +1,14 @@
 name: docs
 
-on:
-  schedule:
-    - cron: "55 18 * * *"
-
 # on:
-#   push:
-#     branches:
-#       - master
-#     paths:
-#       - 'docs.yml'
+#   schedule:
+#     - cron: "55 18 * * *"
+
+on:
+  push:
+    branches:
+      - master
+
 
 jobs:
   build:
